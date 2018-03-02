@@ -71,7 +71,7 @@ GameObject:
   - component: {fileID: 224627467362391268}
   - component: {fileID: 114386154443238934}
   m_Layer: 5
-  m_Name: CellsSection
+  m_Name: MouthCellsSection
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -158,7 +158,7 @@ GameObject:
   - component: {fileID: 222850387527848944}
   - component: {fileID: 114897920269365144}
   m_Layer: 5
-  m_Name: Mounth
+  m_Name: Mouth
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -175,7 +175,7 @@ GameObject:
   - component: {fileID: 222421472507741244}
   - component: {fileID: 114643874857734932}
   m_Layer: 5
-  m_Name: FaceNameLabel
+  m_Name: MouthNameLabel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -192,7 +192,7 @@ GameObject:
   - component: {fileID: 114097691252782900}
   - component: {fileID: 114243978416393752}
   m_Layer: 5
-  m_Name: FaceName
+  m_Name: MouthName
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -274,6 +274,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 224352651714754992}
+  - component: {fileID: 114133338323541342}
   m_Layer: 5
   m_Name: StickerCustomizationPopup
   m_TagString: Untagged
@@ -338,6 +339,22 @@ MonoBehaviour:
   m_ChildForceExpandHeight: 0
   m_ChildControlWidth: 1
   m_ChildControlHeight: 0
+--- !u!114 &114133338323541342
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1930976258849866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19d39273148a3144d8c757e315944f63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouthCellPrefab: {fileID: 1505967033638518, guid: f26aa48749a1d42fc864f6a5fb518c06,
+    type: 2}
+  stickerMouth: {fileID: 114897920269365144}
+  mouthLabelName: {fileID: 114643874857734932}
+  mouthCellsContainer: {fileID: 224627467362391268}
 --- !u!114 &114169278451451058
 MonoBehaviour:
   m_ObjectHideFlags: 1
