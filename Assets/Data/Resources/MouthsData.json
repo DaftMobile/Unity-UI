@@ -1,0 +1,49 @@
+{
+  "mouthsData": [
+    {
+      "id" : 0,
+      "name": "LOL",
+      "iconPath": "StickerMan/Mouths/mouth_lol"
+    },
+    {
+      "id" : 1,
+      "name": "Sad",
+      "iconPath": "StickerMan/Mouths/mouth_sad"
+    },
+    {
+      "id" : 2,
+      "name": "Terrified",
+      "iconPath": "StickerMan/Mouths/mouth_terrified"
+    },
+    {
+      "id" : 3,
+      "name": "In Love",
+      "iconPath": "StickerMan/Mouths/mouth_in_love"
+    },
+    {
+      "id" : 4,
+      "name": "Upset",
+      "iconPath": "StickerMan/Mouths/mouth_upset"
+    },
+    {
+      "id" : 5,
+      "name": "Confused",
+      "iconPath": "StickerMan/Mouths/mouth_confused"
+    },
+    {
+      "id" : 6,
+      "name": "Hungry",
+      "iconPath": "StickerMan/Mouths/mouth_hungry"
+    },
+    {
+      "id" : 7,
+      "name": "What",
+      "iconPath": "StickerMan/Mouths/mouth_what"
+    },
+    {
+      "id" : 8,
+      "name": "Smart",
+      "iconPath": "StickerMan/Mouths/mouth_smart"
+    }
+  ]
+}
